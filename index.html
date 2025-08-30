@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NikaPics Portfolio Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background blobs -->
+  <div class="bg-blob blob-1"></div>
+  <div class="bg-blob blob-2"></div>
+  <div class="bg-blob blob-3"></div>
+
+  <main id="app">
+    <section class="main-section">
+      <div class="home-inner glass-card">
+        <div class="home-left">
+          <h1 class="title">💜 NikaPics</h1>
+          <p class="tagline typewriter">Creative, Passionate & Unique ✨</p>
+
+          <p class="about">
+            Welcome to my portfolio! I love expressing myself through art, design, and creativity.
+          </p>
+
+          <div class="nav-buttons">
+            <button class="pill-btn" id="btnProjects" aria-label="Open My Projects">💼 My Projects</button>
+            <button class="pill-btn" id="btnContact" aria-label="Contact Me">📬 Contact</button>
+          </div>
+        </div>
+
+        <div class="home-right">
+          <div class="photo-wrap floaty">
+            <img src="profile.jpg" alt="Portrait of the site owner" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Projects Overlay -->
+  <div class="projects-overlay" id="projectsOverlay">
+    <div class="projects-inner">
+      <header class="projects-header">
+        <h2 class="title">💼 My Projects</h2>
+        <p class="soft">Browse through my creations.</p>
+      </header>
+
+      <article class="project-view">
+        <div class="project-media">
+          <img id="projectImage" src="" alt="Project preview"/>
+        </div>
+
+        <div class="project-info">
+          <h3 id="projectName" class="project-title">Loading…</h3>
+          <p id="projectDesc" class="project-desc">Please wait a sec while we fetch the magic.</p>
+          <ul id="projectTags" class="tags"></ul>
+
+          <div class="proj-actions">
+            <button class="pill-btn subtle" id="btnPrev" aria-label="Previous project">⬅ Prev</button>
+            <button class="pill-btn" id="btnNext" aria-label="Next project">Next ➡</button>
+          </div>
+        </div>
+      </article>
+
+      <footer class="projects-footer">
+        <button class="pill-btn ghost" id="btnBack" aria-label="Back to home">⬅ Back</button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Toast notifications -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <!-- Contact Overlay -->
+  <div class="contact-overlay" id="contactOverlay">
+    <div class="contact-inner">
+      <header class="contact-header">
+        <h2 class="title">📬 Contact Me</h2>
+        <p class="soft">Let’s stay connected! 💜</p>
+      </header>
+
+      <div class="contact-body">
+        <h3 class="creator-name">Annika</h3>
+        <p class="soft">Find me on my socials:</p>
+
+        <div class="social-links">
+          <a href="https://m.facebook.com/annika.balatero/?" target="_blank" class="social-btn fb">Facebook</a>
+          <a href="https://www.instagram.com/ann_nikkaniks/" target="_blank" class="social-btn ig">Instagram</a>
+          <a href="https://www.tiktok.com/@ann_art15" target="_blank" class="social-btn tt">TikTok</a>
+        </div>
+      </div>
+
+      <footer class="contact-footer">
+        <button class="pill-btn ghost" id="btnContactBack" aria-label="Back to home">⬅ Back</button>
+      </footer>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
