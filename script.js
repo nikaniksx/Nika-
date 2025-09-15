@@ -166,7 +166,7 @@
         },
 
         {
-          name: "☆THE QUITE MUSE",
+          name: "☆CONFIDENCE IN A SUIT",
           description: "A classic look, carried with quiet strength",
           image: "projects/confidence_in_a_suit.jpg",
           tags: ["Confidence", 'Suit']
@@ -178,5 +178,6 @@
     }
 
     
+
 
   document.addEventListener('DOMContentLoaded', loadProjects);
