@@ -139,14 +139,14 @@
       projects = [
         {
           name: "☆COMFORT (2021)",
-          description: "He taught me that comfort doesn’t need to be loud. Sometimes, it arrives on soft paws and stays forever in memory.",
+          description: "This photo is very special to me. It’s one of my favorite captures of my cat, who passed away in 2024. This was taken before Christmas (around November 2021). I like the lighting in this picture because the warm glow reminds me of his comforting presence and the joy he gave me. I chose this photo because it keeps his memory alive in a simple but meaningful way.",
           image: "projects/comfort.jpg",
           tags: ["Cat", "Comfort", "Pet"]
         },
 
         {
           name: "☆CHROMATIC PAUSE",
-          description: "Colors bleeding into the night, catching moments unseen. A simple station, yet a spectacle of light.",
+          description: "I captured this gas station because the colors and light made an ordinary place feel cinematic. It reminded me how beauty can exist in the most unexpected corners.",
           image: "projects/chromatic_pause.jpg",
           tags: ["Night", "Light", "Station"]
         },
@@ -160,17 +160,60 @@
 
         {
           name: "☆THE QUITE MUSE",
-          description: "In her eyes lived a quiet power, unsettling yet captivating. A stare that belongs on a canvas or a runway.",
+          description: "My cat’s gaze held a mysterious calm that I couldn’t look away from. Even in stillness, she carried a presence that felt both haunting and beautiful.",
           image: "projects/the_quite_muse.jpg",
           tags: ["Cat"]
         },
 
         {
           name: "☆CONFIDENCE IN A SUIT",
-          description: "A classic look, carried with quiet strength",
+          description: "I photographed this moment because his smirk carried a mix of playfulness and quiet strength. The red and yellow glow behind him gave the portrait an unexpected edge.",
           image: "projects/confidence_in_a_suit.jpg",
           tags: ["Confidence", 'Suit']
-        }
+        },
+
+        {
+          name: "☆LIGHTED GATHERING",
+          description: "A glowing kubo at Plaza, open to everyone under its light. I captured it because even without walls, it felt like a home where people gather and share the night",
+          image: "projects/lighted_gathering.jpg",
+          tags: ['Kubo', 'Plaza', 'Night', 'Light']
+        },
+
+        {
+          name: "☆MORNING WALK",
+          description: "I captured this moment because the quiet trail showed the beauty of starting the day in motion. The person walking added life to the stillness of the scene.",
+          image: "projects/morning_walk.jpg",
+          tags: ['Scenery', 'Trails']
+        },
+
+        {
+          name: "☆PERSPECTIVE",
+          description: "I captured this because I liked how the frame felt unplanned yet intentional. Sometimes random angles tell the most honest stories.",
+          image: "projects/perspective.jpg",
+          tags: ["Perspective", "Stories"]
+        },
+
+        {
+          name: "☆LINES AND LIGHTS",
+          description: "I captured this scene because the clean architecture and sharp lines stood out against the soft daylight. It felt like a balance between structure and calm",
+          image: "projects/lines_and_light.jpg",
+          tags: ["Lines", "Architecture", "Structure"]
+        },
+
+        {
+          name: "☆SCENES OF DAILY LIFE",
+          description: "I took this picture because it shows the ordinary view I often see, but rarely pay attention to. It reminds me that even simple moments in familiar places are worth noticing.",
+          image: "projects/scenes_of_daily_life.jpg",
+          tags: ["View", "Scene"]
+        },
+
+        {
+          name: "☆WHISPER OF THE HILLS",
+          description: "I captured this because the bright green felt calming, like the trees were wrapping me in quiet. It made me pause and appreciate how refreshing nature can be.",
+          image: "projects/whispers_of_the_hills.jpg",
+          tags: ["Hill", "Nature"]
+        },
+
       ];
       
       index = 0;
@@ -178,6 +221,5 @@
     }
 
     
-
 
   document.addEventListener('DOMContentLoaded', loadProjects);
